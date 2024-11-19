@@ -1,0 +1,779 @@
+/* Css Reset*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: "Dancing Script", cursive;
+}
+
+/*! Body */
+body {
+  width: 100vw;
+  /* font-family: "Open Sans", sans-serif; */
+  /* font-family: "cascadia code", "Open Sans", sans-serif; */
+}
+/*! Header */
+header {
+  background-color: #f64776;
+  height: 80px;
+  width: 100vw;
+  /* margin: 0px 3px 0px 0px; */
+  margin: 0px;
+  padding: 5px;
+  position: relative;
+}
+/* navbar */
+.navbar {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 34px;
+}
+/* logo */
+.logo img {
+  height: 50px;
+  width: 50px;
+}
+/* Nav-elements */
+.nav-elements {
+  margin: 4px;
+  padding: 4px;
+  display: flex;
+  gap: 5px;
+  z-index: 6;
+}
+ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 54px;
+}
+ul li {
+  list-style: none;
+}
+ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.1rem;
+  /* font-family: "Open Sans", sans-serif; */
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  transition: all 5ms;
+}
+a:hover {
+  border-bottom: 1.5px solid #fff;
+}
+
+/*! Main Content */
+/* Home Section  */
+.home {
+  height: 60vh;
+  width: 100vw;
+  margin: 0px 20px 0px 0px;
+  background-color: #f64776;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: relative;
+}
+.text {
+  display: flex;
+  flex-direction: column;
+}
+/* text  */
+.text h1 {
+  /* font-family: "Open Sans", sans-serif; */
+  /* font-family: "Satisfy", cursive; */
+  /* font-family: "Libre Baskerville", serif; */
+  /* font-family: "Nunito", sans-serif; */
+  /* font-family: "Abril Fatface", serif; */
+  font-family: "Roboto Slab", serif;
+  color: #fff;
+  margin: 15px;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 3rem;
+  font-weight: 800;
+}
+.text h2 {
+  /* font-family: "Open Sans", sans-serif; */
+  font-family: "Roboto Slab", serif;
+  color: #fff;
+  margin: 15px;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+}
+/* changing text */
+#element {
+  font-family: "Pacifico", cursive;
+  /* color: #c1d5fd; */
+  font-size: 1em;
+  margin-left: 13px;
+}
+.circle {
+  height: 555px;
+  width: 555px;
+  border-radius: 50%;
+  background-color: rgb(247, 140, 140);
+  z-index: 5;
+  position: relative;
+}
+/* pic */
+.pic {
+  position: relative;
+  top: 25px;
+}
+.pic img {
+  height: 500px;
+  width: 500px;
+}
+
+/* ! Products Section */
+.product_section {
+  background-color: #daeeff;
+}
+.products {
+  width: 100vw;
+  height: 120vh;
+  padding-top: 50px;
+  background-color: #daeeff;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: relative;
+  z-index: 1;
+}
+.product_circle img {
+  height: 600px;
+  width: 600px;
+  position: relative;
+  top: 105px;
+  left: 165px;
+}
+.product_circle {
+  height: 715px;
+  width: 700px;
+  border-radius: 50%;
+  background-color: #f9eaea;
+  z-index: 5;
+  position: relative;
+}
+
+/* product-text */
+.product_text1 {
+  height: 100vh;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 78px;
+}
+.product_text1 p {
+  font-size: 20px;
+  font-weight: bolder;
+  width: 80%;
+  align-self: center;
+  text-align: right;
+  color: #000;
+  word-spacing: 3px;
+}
+
+/* product Varieties */
+.product_varieties {
+  height: 50px;
+  width: 394px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 22px;
+  top: -134px;
+  left: 939px;
+  z-index: 4;
+  /* background-color: #d7c1c1; */
+}
+.product_varieties_border {
+  display: inline-block;
+  border: 3px solid #fff;
+  height: 49px;
+  position: relative;
+}
+.product_varieties span img {
+  height: 70px;
+  width: 50px;
+  position: relative;
+  top: -25px;
+}
+.product_varieties_border span img:hover {
+  cursor: pointer;
+  height: 70px;
+  width: 50px;
+  position: relative;
+  top: -25px;
+  transform: scale(1.2);
+  transition: all 0.5s;
+}
+
+/* !Shop Section  */
+.shop {
+  background: linear-gradient(-225deg, #5d9fff 0%, #b8dcff 48%, #6bbbff 100%);
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  position: relative;
+  justify-content: space-between;
+  z-index: 3;
+}
+/* Shop Heading */
+.shop_heading {
+  font-size: 4.5em;
+  color: #fff;
+  text-align: center;
+  position: relative;
+  top: -320px;
+  left: 600px;
+  font-family: "Dancing Script", cursive;
+  font-weight: bolder;
+}
+/* shop_section_box */
+.shop_selection_box {
+  background-image: url("https://lazza.co.in/assets/imagesnew/single-product-bg.png");
+  background-size: contain; /* Ensures the entire image fits within the div */
+  background-position: center center; /* Centers the image within the div */
+  background-repeat: no-repeat;
+  overflow: hidden;
+  background-color: #fff;
+  height: 430px;
+  width: 350px;
+  padding: 50px;
+  border-radius: 20px;
+  position: relative;
+  right: 50px;
+  box-shadow: 2px 3px 10px #000;
+  transition: all 0.5s;
+}
+/* hover effect */
+.shop_selection_box:hover {
+  transform: scale(1.02);
+  cursor: pointer;
+}
+/* shop order Section  */
+.shop_order {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 79px;
+  text-align: left;
+}
+label {
+  font-size: 20px;
+  color: #333;
+  font-family: "Dancing Script", cursive;
+  font-weight: 800;
+}
+select {
+  width: 100%;
+  height: 40px;
+  padding: 9px;
+  background: transparent;
+  outline: none;
+  border: 1px solid #ddd;
+  appearance: none;
+  font-weight: bold;
+  margin-top: 5px;
+  cursor: pointer;
+  border-radius: 15px;
+}
+select:hover {
+  border: 1px solid #000;
+}
+input {
+  width: 100%;
+  height: 40px;
+  padding: 4px;
+  background: transparent;
+  outline: none;
+  border: 1px solid #ddd;
+  appearance: none;
+  font-weight: bold;
+  font-size: 20px;
+  cursor: pointer;
+  margin-top: 5px;
+  font-size: 20px;
+  font-family: cascadia code;
+  border-radius: 15px;
+}
+input:hover {
+  border: 1px solid #000;
+}
+/* shop_bill_text */
+.shop_bill_text {
+  display: inline;
+  font-size: 20px;
+  width: 80%;
+  align-self: center;
+  color: #000;
+  word-spacing: 3px;
+  position: relative;
+  top: -35px;
+  font-size: 20px;
+  text-align: center;
+}
+.contact_us_button {
+  height: 45px;
+  width: 255px;
+  align-self: center;
+  padding: 8px 60px;
+  border: none;
+  color: #fff;
+  font-family: "Dancing Script", cursive;
+  background: linear-gradient(to right, rgb(5, 117, 230), rgb(4, 37, 155));
+  font-size: 1.4rem;
+  font-weight: bolder;
+  border-radius: 25px;
+  position: relative;
+  top: -85px;
+  cursor: pointer;
+}
+
+/* !About Us Section */
+.about_us {
+  /* border: 2px solid red; */
+  background-color: #dbedfc;
+  height: 100vh;
+  width: 100svw;
+  /* margin: 12px; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+/* heading text */
+.about_us_heading {
+  position: relative;
+  top: 93px;
+  left: 180px;
+  /* z-index: 3; */
+}
+/* upper section  */
+.about_upper_section {
+  height: 40vh;
+  width: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* upper left section */
+.upper_left {
+  width: 50%;
+}
+/* milk pic */
+.milk_pic {
+  position: relative;
+  right: 10px;
+  top: -10px;
+  z-index: 2;
+  transform: scale(3.5);
+}
+/* upper right section */
+.upper_right {
+  width: 100%;
+  text-align: right;
+  position: relative;
+  right: -300px;
+  top: 56px;
+  color: #000;
+  font-weight: bolder;
+  font-size: 18px;
+  /* letter-spacing: 1px; */
+}
+
+/* about us heading */
+/* .about_us_milk_pic,
+.about_us_heading {
+  display: inline;
+} */
+/* mi */
+.about_lower_section {
+  display: flex;
+}
+.lower_left {
+  width: 100%;
+  padding: 45px;
+}
+.about_textSquiz {
+  margin-top: 75px;
+  margin-right: 475px;
+  font-weight: bolder;
+  font-size: 20px;
+}
+.about_us_lower_right_pic {
+  height: 400px;
+  width: 400px;
+  float: right;
+}
+/* !Divider */
+.divider {
+  height: 2vh;
+  width: 100vw;
+}
+.divider img {
+  width: 100vw;
+}
+
+/*!contact_us  */
+.contact_us {
+  height: 65vh;
+  width: 100vw;
+  /* margin-top: 200px; */
+  padding: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #fecddc;
+  position: inherit;
+  z-index: 4;
+}
+/* contact us logo pic */
+.contact_us_pic {
+  height: 255px;
+  width: 255px;
+}
+.contact_us img {
+  height: 234px;
+  width: 234px;
+  position: relative;
+  top: 45px;
+  left: 75px;
+  z-index: 3;
+}
+/* contact us text and links */
+.contact_us_links {
+  position: relative;
+  top: 34px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#email {
+  width: 350px;
+  background-color: #fff;
+  font-weight: 0.5em;
+  padding: 17px;
+}
+/* button */
+.contact_us_button {
+  position: relative;
+  top: 4px;
+  left: 6px;
+  width: 200px;
+  padding: 8px 20px;
+  transition: all 0.5s;
+}
+.contact_us_button:hover {
+  cursor: pointer;
+  transform: scale(1.02);
+}
+/* Stars  */
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+input[type="radio"] {
+  display: none;
+}
+
+/* links */
+.link_pics {
+  display: flex;
+  position: relative;
+  left: 80px;
+  top: -22px;
+}
+.link_pics img {
+  height: 45px;
+  width: 45px;
+  transition: all 0.5s;
+}
+.link_pics img:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+}
+/* !Footer */
+footer {
+  height: 3vh;
+  /* width: 100vh; */
+  text-align: center;
+  background-color: #000;
+  color: #fff;
+  font-family: "cascadia code";
+  letter-spacing: 2px;
+  word-spacing: 3px;
+}
+
+/* !Utility classes */
+/* Image reverse class */
+.img_reverse {
+  transform: scaleX(-1);
+}
+.fit_in_circle {
+  position: relative;
+  top: 79px;
+  left: 50px;
+}
+
+/* ! New Try Animation */
+
+.left-arrow {
+  position: absolute;
+  top: 80px;
+  left: -5px;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  text-align: center;
+  justify-items: center;
+  color: #fff;
+  background-color: #5b5a5a;
+  font-weight: 600;
+  font-size: 43px;
+}
+/* .button {
+  display: inline-block;
+  padding: 0.75rem 1.25rem;
+  border-radius: 10rem;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 1rem;
+  letter-spacing: 0.15rem;
+  transition: all 0.3s;
+  position: absolute;
+  top: 380px;
+  right: 90px;
+  overflow: hidden;
+  z-index: 1;
+  &:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #0cf;
+    border-radius: 10rem;
+    z-index: -2;
+  }
+  &:before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    background-color: darken(#0cf, 15%);
+    transition: all 0.3s;
+    border-radius: 10rem;
+    z-index: -1;
+  }
+}
+.button:hover {
+  color: #fff;
+  &:before {
+    width: 100%;
+  }
+} */
+/* From Uiverse.io by TISEPSE */
+/* From Uiverse.io by Gaurav-WebDev */
+.button {
+  height: 40px;
+  width: 150px;
+  position: absolute;
+  top: 370px;
+  right: 23px;
+  background-color: transparent;
+  cursor: pointer;
+  border: 2px solid #252525;
+  overflow: hidden;
+  border-radius: 30px;
+  color: #333;
+  transition: all 0.5s ease-in-out;
+}
+
+.btn-txt {
+  z-index: 1;
+  font-weight: 800;
+  letter-spacing: 3px;
+}
+
+.type1::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  transition: all 0.5s ease-in-out;
+  background-color: #003fb4;
+  border-radius: 30px;
+  visibility: hidden;
+  height: 10px;
+  width: 10px;
+  z-index: -1;
+}
+
+.button:hover {
+  box-shadow: 1px 1px 200px #bdd8fd;
+  color: #fff;
+  border: none;
+}
+
+.type1:hover::after {
+  visibility: visible;
+  transform: scale(100) translateX(2px);
+}
+
+.shift_to_up1 {
+  position: absolute;
+  top: 360px;
+  left: 32px;
+  color: orange;
+  font-weight: 600;
+  font-size: 20px;
+}
+.shift_to_up2 {
+  position: absolute;
+  top: 386px;
+  left: 32px;
+  font-size: 15px;
+}
+/* ! NEW css-2  */
+/* T-13 --> ADD To CART Button */
+.CartBtn {
+  width: 140px;
+  height: 30px;
+  border-radius: 12px;
+  border: none;
+  background-color: rgb(255, 208, 0);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition-duration: 0.5s;
+  overflow: hidden;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.103);
+  position: relative;
+  left: 130px;
+  top: -35px;
+  margin-bottom: 6px;
+}
+
+.IconContainer {
+  position: absolute;
+  left: -50px;
+  width: 30px;
+  height: 30px;
+  background-color: transparent;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  z-index: 2;
+  transition-duration: 0.5s;
+}
+
+.icon {
+  border-radius: 1px;
+}
+
+.text {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(17, 17, 17);
+  z-index: 1;
+  transition-duration: 0.5s;
+  font-size: 1.04em;
+  font-weight: 600;
+}
+
+.CartBtn:hover .IconContainer {
+  transform: translateX(58px);
+  border-radius: 40px;
+  transition-duration: 0.5s;
+}
+
+.CartBtn:hover .text {
+  transform: translate(10px, 0px);
+  transition-duration: 0.5s;
+}
+
+.CartBtn:active {
+  transform: scale(0.95);
+  transition-duration: 0.5s;
+}
+/* !anther  */
+.card-btn {
+  height: 35px;
+  /* background: var(#fff);
+  border: 2px solid var(#323232); */
+  border-radius: 5px;
+  padding: 0 15px;
+  transition: all 0.3s;
+  position: relative;
+  top: -355px;
+  left: 236px;
+}
+
+.card-btn svg {
+  width: 100%;
+  height: 100%;
+  fill: #323232;
+  transition: all 0.5s;
+}
+.card-btn:hover {
+  border: 2px solid var(#2d8cf0);
+}
+
+.card-btn:hover svg {
+  fill: #fa7900;
+}
+
+.card-btn:active {
+  transform: translateY(3px);
+}
+
+/* !arrows */
+.arrows {
+  width: 28px;
+  height: 28px;
+  border-color: #000;
+  position: absolute;
+  top: 236px;
+  margin-top: -31px;
+}
+
+.prev {
+  border-bottom: 6px solid;
+  border-left: 6px solid;
+  transform: rotate(45deg);
+  left: 10px;
+}
+
+.next {
+  border-bottom: 6px solid;
+  border-left: 6px solid;
+  transform: rotate(-135deg);
+  right: 10px;
+}
